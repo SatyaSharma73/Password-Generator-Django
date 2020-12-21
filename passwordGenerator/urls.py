@@ -24,3 +24,5 @@ urlpatterns = [
     
     
 ]
+
+STATIC_URL = '/static/'

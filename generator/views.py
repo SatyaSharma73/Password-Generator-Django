@@ -13,7 +13,7 @@ def password(request):
         characters.extend(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
 
     if request.GET.get("SpecialCase"):
-        characters.extend(list('@#%$^*()!?><:;'))
+        characters.extend(list('@!<>&*# '))
 
     if request.GET.get("Numbers"):
         characters.extend(list('0123456789'))
